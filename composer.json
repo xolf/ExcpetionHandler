@@ -1,0 +1,6 @@
+{
+    "name": "xolf/excpetionhandler",
+    "require": {
+        "php": ">=5.0.0"
+    }
+}
