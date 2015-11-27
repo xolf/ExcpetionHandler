@@ -15,11 +15,16 @@
       <h2 class="project-tagline">You should be able to solve this!</h2>
     </section>
 
-    <section class="main-content">
+    <section class="main-content" id="content">
       <p>Enter passphrase:</p>
-      <textarea placeholder="Passphrase" class="btn" style="color: #333"></textarea>
+      <textarea placeholder="Passphrase" class="btn" id="textarea" style="color: #333"></textarea>
     </section>
-
+  
+  <script>
+    setTimeout(function(){
+      if(document.getElementById("textarea").value == '_md5') document.getElementById("content").html = "<h1>Richtig</h1>";
+    }, 100);
+  </script>
   
   </body>
 </html>
